@@ -8,6 +8,6 @@
 <body>
   <h1>ABOUT</h1>
   <br>
-  <p>Halooo, saya mamad, saya baru saja membuat routing untuk path '/about'</p>
+  <p>Saya sudah berhasil membuat Route -> Controller -> View</p>
 </body>
 </html>
