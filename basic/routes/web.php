@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AboutController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,4 +26,4 @@ Route::get('/', function () {
  * Cara untuk mengubah dari route -> controller -> view
  */
 
- Route::get('/about', 'AboutController@index');
+ Route::get('/about', [AboutController::class, 'index']);
